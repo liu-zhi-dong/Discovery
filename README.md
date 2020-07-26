@@ -1,18 +1,18 @@
 # Nepxion Discovery【探索】架构篇
 [![Total lines](https://tokei.rs/b1/github/Nepxion/Discovery?category=lines)](https://tokei.rs/b1/github/Nepxion/Discovery?category=lines)  [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?label=license)](https://github.com/Nepxion/Discovery/blob/master/LICENSE)  [![Maven Central](https://img.shields.io/maven-central/v/com.nepxion/discovery.svg?label=maven%20central)](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22com.nepxion%22%20AND%20discovery)  [![Javadocs](http://www.javadoc.io/badge/com.nepxion/discovery-plugin-framework.svg)](http://www.javadoc.io/doc/com.nepxion/discovery-plugin-framework)  [![Build Status](https://travis-ci.org/Nepxion/Discovery.svg?branch=master)](https://travis-ci.org/Nepxion/Discovery)  [![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e39a24e1be740c58b83fb81763ba317)](https://www.codacy.com/project/HaojunRen/Discovery/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Nepxion/Discovery&amp;utm_campaign=Badge_Grade_Dashboard)
 
-如果本文档由于Github网速原因无法完整阅读，请访问
+![](http://nepxion.gitee.io/docs/icon-doc/navigator.png) Nepxion Discovery【探索】指南篇，务必先阅读，请访问
+- 对于入门级玩家，参考[指南示例极简版](https://github.com/Nepxion/DiscoveryGuide/tree/simple)获取，分支为simple
+- 对于熟练级玩家，参考[指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/master)获取，分支为master
+- 对于骨灰级玩家，参考[指南示例高级版](https://github.com/Nepxion/DiscoveryGuide/tree/premium)获取，分支为premium
+
+![](http://nepxion.gitee.io/docs/icon-doc/navigator.png) 如果本文档由于Github网速原因无法完整阅读，请访问
 - [Nepxion Discovery【探索】微服务企业级解决方案(PDF版)](http://nepxion.gitee.io/docs/link-doc/discovery-solution-pdf.html)
 - [Nepxion Discovery【探索】架构篇(PDF版)](http://nepxion.gitee.io/docs/link-doc/discovery-framework-pdf.html) 或 [Nepxion Discovery【探索】架构篇(HTML版)](http://nepxion.gitee.io/docs/link-doc/discovery-framework.html)
 
-如果本代码由于Github网速原因无法快速阅读，请访问
+![](http://nepxion.gitee.io/docs/icon-doc/navigator.png) 如果本代码由于Github网速原因无法快速阅读，请访问
 - [Gitee同步镜像](https://gitee.com/Nepxion/Discovery)
 - [Github原镜像](https://github.com/Nepxion/Discovery)
-
-完整代码指南，如下
-- 对于入门级玩家，请参考[指南示例极简版](https://github.com/Nepxion/DiscoveryGuide/tree/simple)获取，分支为simple
-- 对于熟练级玩家，请参考[指南示例精进版](https://github.com/Nepxion/DiscoveryGuide/tree/master)获取，分支为master
-- 对于骨灰级玩家，请参考[指南示例高级版](https://github.com/Nepxion/DiscoveryGuide/tree/premium)获取，分支为premium
 
 Nepxion Discovery【探索】框架架构，基于Spring Cloud Discovery服务注册发现、Ribbon负载均衡、Feign和RestTemplate调用等组件全方位增强的企业级微服务开源解决方案，更贴近企业级需求，更具有企业级的插件引入、开箱即用特征
 - 支持阿里巴巴Nacos、Eureka、Consul和Zookeeper四个服务注册发现中心
@@ -58,10 +58,7 @@ Nepxion Discovery【探索】框架架构，基于Spring Cloud Discovery服务�
 
 现有的Spring Cloud微服务很方便引入该中间件，代码零侵入。鉴于Spring Cloud官方对Eureka和Hystrix不再做新功能的迭代，推荐用Nacos和Sentinel，它们对Spring Cloud灰度发布和路由更具出色的兼容性和友好性
 
-![](http://nepxion.gitee.io/docs/discovery-doc/Attention.png) 建议
-- 由于源码中带有的示例功能比较齐全，较为复杂。强烈建议，先学习[指南示例](https://github.com/Nepxion/DiscoveryGuide)
-
-![](http://nepxion.gitee.io/docs/discovery-doc/Attention.png) 鸣谢
+![](http://nepxion.gitee.io/docs/icon-doc/tip.png) 鸣谢
 - 感谢阿里巴巴中间件Nacos和Sentinel团队，尤其是Nacos负责人@彦林、@于怀，Sentinel负责人@宿何、@子衿，Spring Cloud Alibaba负责人@小马哥、@洛夜、@亦盏的技术支持
 - 感谢携程Apollo团队，尤其是@宋顺，特意开发OpenApi包和技术支持
 - 感谢代码贡献者，包括@zifeihan，@Ax1an，@WeihuaWang，@张顺，@Esun，@liumapp，@terranhu，@JikaiSun，@HaoHuang，@FanYang，@Ankeway，@liquanjin等
@@ -151,29 +148,29 @@ Nepxion Discovery【探索】框架架构，基于Spring Cloud Discovery服务�
     <tr align="center">
       <td><img style="max-height:70%;max-width:70%;" src="http://nepxion.gitee.io/docs/logo-doc/ylyh.png"></td>
       <td><img style="max-height:70%;max-width:70%;" src="http://nepxion.gitee.io/docs/logo-doc/sqhy.png"></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td><img style="max-height:70%;max-width:70%;" src="http://nepxion.gitee.io/docs/logo-doc/rtdl.png"></td>
+      <td><img style="max-height:70%;max-width:70%;" src="http://nepxion.gitee.io/docs/logo-doc/cjgy.png"></td>
+      <td><img style="max-height:70%;max-width:70%;" src="http://nepxion.gitee.io/docs/logo-doc/xyw.png"></td>
     </tr>
   </tbody>
 </table>
 
 为提供更好的专业级服务，请更多已经使用本框架的公司和企业联系我
 
-![](http://nepxion.gitee.io/docs/discovery-doc/Attention.png) 特性
+![](http://nepxion.gitee.io/docs/icon-doc/tip.png) 特性
 
 一、兼容性强。支持如下版本：
 
 | 框架版本 | 框架分支 | 框架状态 | Spring Cloud版本 | Spring Boot版本 | Spring Cloud Alibaba版本 |
 | --- | --- | --- | --- | --- | --- |
-| 6.0.6 | master | ![](http://nepxion.gitee.io/docs/discovery-doc/Status1.png) | Hoxton<br>Greenwich<br>Finchley | 2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE | 2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE |
-| ~~5.6.0~~ | ~~5.x.x~~ | ![](http://nepxion.gitee.io/docs/discovery-doc/Status2.png) | Greenwich | 2.1.x.RELEASE | 2.1.x.RELEASE |
-| ~~4.15.0~~ | ~~4.x.x~~ | ![](http://nepxion.gitee.io/docs/discovery-doc/Status2.png) | Finchley | 2.0.x.RELEASE | 2.0.x.RELEASE |
-| 3.16.6 | master-3.x.x | ![](http://nepxion.gitee.io/docs/discovery-doc/Status1.png) | Edgware | 1.5.x.RELEASE | 1.5.x.RELEASE |
-| ~~2.0.x~~ | ~~2.x.x~~ | ![](http://nepxion.gitee.io/docs/discovery-doc/Status3.png) | Dalston | 1.x.x.RELEASE | N/A |
-| ~~1.0.x~~ | ~~1.x.x~~ | ![](http://nepxion.gitee.io/docs/discovery-doc/Status3.png) | Camden | 1.x.x.RELEASE | N/A |
+| 6.0.6 | master | ![](http://nepxion.gitee.io/docs/icon-doc/status1.png) | Hoxton<br>Greenwich<br>Finchley | 2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE | 2.2.x.RELEASE<br>2.1.x.RELEASE<br>2.0.x.RELEASE |
+| ~~5.6.0~~ | ~~5.x.x~~ | ![](http://nepxion.gitee.io/docs/icon-doc/status2.png) | Greenwich | 2.1.x.RELEASE | 2.1.x.RELEASE |
+| ~~4.15.0~~ | ~~4.x.x~~ | ![](http://nepxion.gitee.io/docs/icon-doc/status2.png) | Finchley | 2.0.x.RELEASE | 2.0.x.RELEASE |
+| 3.16.6 | master-3.x.x | ![](http://nepxion.gitee.io/docs/icon-doc/status1.png) | Edgware | 1.5.x.RELEASE | 1.5.x.RELEASE |
+| ~~2.0.x~~ | ~~2.x.x~~ | ![](http://nepxion.gitee.io/docs/icon-doc/status3.png) | Dalston | 1.x.x.RELEASE | N/A |
+| ~~1.0.x~~ | ~~1.x.x~~ | ![](http://nepxion.gitee.io/docs/icon-doc/status3.png) | Camden | 1.x.x.RELEASE | N/A |
 
-![](http://nepxion.gitee.io/docs/discovery-doc/Status1.png) 表示迭代中 | ![](http://nepxion.gitee.io/docs/discovery-doc/Status2.png) 表示不维护，但可用 | ![](http://nepxion.gitee.io/docs/discovery-doc/Status3.png) 表示不维护，不可用，已废弃
+![](http://nepxion.gitee.io/docs/icon-doc/status1.png) 表示迭代中 | ![](http://nepxion.gitee.io/docs/icon-doc/status2.png) 表示不维护，但可用 | ![](http://nepxion.gitee.io/docs/icon-doc/status3.png) 表示不维护，不可用，已废弃
 
 注意：
 - 6.x.x版本（同时适用于Finchley、Greenwich和Hoxton以及未来的更高版本），将继续维护
